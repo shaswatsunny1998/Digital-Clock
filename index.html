@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+
+<body>
+<div id="contentContainer">
+<div id="thing">
+<!--    <div class="table" >-->
+        <div class="cell" >
+            <h1 id="clock" class="clock"></h1>
+
+
+            <select id="hours"></select>
+            <select id="minutes"></select>
+            <select id="seconds"></select>
+            <select id="ampm">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+
+            <p>
+                <button id="snooze" class="hide">Snooze</button>
+                <button id="startstop">Set Alarm</button>
+                <button type="button" onclick="MoveDiv1()">Show Clock At Top side</button>
+                <button type="button" onclick="MoveDiv2()">Show Clock At Bottom side</button>
+                <button type="button" onclick="myFunction3()">Today's Day</button>
+            </p>
+            <h3 id="day" style=" color: white; text-align: center ; padding-left: 590px"></h3>
+            <h4 style="color: red; text-align: center">IWP Activity-4</h4>
+        </div>
+<!--    </div>-->
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
